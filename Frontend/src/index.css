@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+@theme{
+    --color-custom-black:#1A1A1A;
+    --color-custom-black-body:#0E1216;
+}
+
+.desc::-webkit-scrollbar{
+    display: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}

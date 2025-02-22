@@ -10,7 +10,7 @@ export const GamesProvider=(props)=>{
 
   const getGames=async (offset)=>{
     try{
-      let response=await fetch(`https://gamescout-oxx1.onrender.com/games?offset=${offset}`);
+      let response=await fetch(`Gamescout api link`);
     let data=await response.json();
     return data
     }catch(e){
@@ -21,7 +21,7 @@ export const GamesProvider=(props)=>{
 
   const getGame=async (gameid)=>{
     try{
-      const response=await fetch(`https://gamescout-oxx1.onrender.com/game/${gameid}`);
+      const response=await fetch(`Gamescout api link`);
       const data=await response.json();
       return data
     }catch(e){
@@ -33,7 +33,7 @@ export const GamesProvider=(props)=>{
 
   const searchgames=async(gamename)=>{
     try{
-      const response=await fetch(`https://gamescout-oxx1.onrender.com/search/${gamename}`);
+      const response=await fetch(`Gamescout api link`);
       const data=await response.json();
       return data
     }catch(e){

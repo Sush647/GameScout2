@@ -6,12 +6,7 @@ const FirebaseContext=createContext(null);
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBwCgGuC8yFp6GceT2W5FEZlPbvU4hMItI",
-    authDomain: "gamescout-4d13f.firebaseapp.com",
-    projectId: "gamescout-4d13f",
-    storageBucket: "gamescout-4d13f.firebasestorage.app",
-    messagingSenderId: "1037228665558",
-    appId: "1:1037228665558:web:58685f47795fea592f3777"
+   YOUR FIREBASE CONFIG;
   };
 
 const firebaseapp=initializeApp(firebaseConfig);

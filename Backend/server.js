@@ -7,7 +7,7 @@ const app = express();
 const PORT =process.env.PORT || 5000;
 // const API_KEY = process.env.API_KEY;
 const BASE_URL = "https://www.giantbomb.com/api";
-const API_KEY="68d0bba5279393c882c35d65d7835f6b23d281db";
+const API_KEY=process.env.API_KEY;
 
 console.log(process.env.API_KEY)
 // Enable CORS
